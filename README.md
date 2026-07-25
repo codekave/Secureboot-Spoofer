@@ -1,7 +1,7 @@
 # Secureboot-Spoofer
 # SecurebootSpoof
 
-Runtime SecureBoot spoofer for Windows 10/11. Patches every query surface from a manually-mapped kernel driver — no registered callbacks, no SSDT hooks, no visible driver object.
+Runtime SecureBoot spoofer for Windows 10/11. Patches every query surface from a manually-mapped kernel driver, no registered callbacks, no SSDT hooks, no visible driver object.
 
 > Full technical write-up at **[hollowsec.xyz](https://hollowsec.xyz)**
 
