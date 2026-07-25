@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="entry\main.cpp" />
+    <ClCompile Include="firmware\firmware.cpp">
+      <Filter>Firmware</Filter>
+    </ClCompile>
+    <ClCompile Include="registry\registry.cpp">
+      <Filter>Registry</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="log\log.h" />
+    <ClInclude Include="firmware\firmware.h">
+      <Filter>Firmware</Filter>
+    </ClInclude>
+    <ClInclude Include="registry\registry.h">
+      <Filter>Registry</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Firmware">
+      <UniqueIdentifier>{8cbfcf32-f8d2-44ea-a4ac-cf62936b592d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Registry">
+      <UniqueIdentifier>{a318a5f1-63ae-45ac-a530-1c9f17eebb37}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
